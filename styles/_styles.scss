@@ -1,0 +1,40 @@
+body {
+    max-width: 1200px;
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    font-family: 'Aldrich', sans-serif;
+    font-size: 24px;
+}
+
+
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 90px;
+}
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 22px;
+}
+
+
+
+// H2 - Tablet 24px Mobile  font-family: 'Baloo 2', cursive; 24px 
+// li p - Tablet 16px Mobile - hidden? Dropdown
+// H1 - Tablet 72px Mobile 36px
+// p - Tablet 22px Mobile 12px
+
+
+// @media h2 {max-width: 800px;)
+
+    
+// }

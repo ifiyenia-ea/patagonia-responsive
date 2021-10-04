@@ -1,0 +1,33 @@
+.header {
+    max-width: 864px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+
+    &__menu {
+        display: inline-flex;
+    
+        &-a {
+            text-decoration: none;
+                        
+            &:visited {
+                color: #466768;
+            }
+            &:hover {
+                color: cadetblue;
+            }
+
+        }   
+    }
+}
+
+li {
+    list-style-type: none;
+    display: inline-flex;
+    justify-content: space-between;
+    padding-right: 20px;
+
+}
