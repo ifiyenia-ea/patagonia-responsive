@@ -32,10 +32,18 @@ p {
 // p - Tablet 22px Mobile 12px
 
 
+
 @media screen and (max-width: 800px) {
     h2 {
         font-family: 'Baloo 2', cursive;
     }
+
+    // .header {
+    //     max-width: 617px;
+    //     width: 100%;
+    //     margin: auto;
+
+    // } This wasn't working :)
 
     .header__menu-a {
         font-size: 16px;
@@ -45,9 +53,10 @@ p {
         font-size: 72px;
     }
 
+    .header__menu-img {
+        display: none;
+    }
 
-    // img M
-    // flip view?
 }
 
 
@@ -61,15 +70,24 @@ p {
     }
 
     p {
-        font-size: 16px;
+        font-size: 12px;
         max-width: 217px;
         width: 100%;
     }
 
-    //menu
-    // img S
-    // flip view?
+    nav ul {
+        display: none;
+    }
+
+    // but how do I get the menu img to
+    // re-appear? Or, why doesn't it show?
 }
 
+
+@media screen and (min-width: 801px) {    
+    .header__menu-img {
+        display: none;
     
-// }
+}
+
+}
